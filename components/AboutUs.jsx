@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import React from "react";
 import Goals from "./Goals";
 import { AiOutlineDoubleRight } from "react-icons/ai";
@@ -24,10 +25,12 @@ function AboutUs() {
           </Link>
         </div>
         <div className="lg:w-1/2 lg:order-2 order-1">
-          <img
+          <Image
             className=" h-full rounded-2xl mx-auto w-11/12"
-            src="/images/building2.jpg"
-            alt="Esquire Building"
+            src="/images/homescreen.jpeg"
+            width={300}
+            height={300}
+            alt="Hotel View"
           />
         </div>
       </div>
