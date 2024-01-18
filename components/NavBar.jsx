@@ -44,7 +44,7 @@ function NavBar() {
           href="/"
           className="self-center font-semibold text-lg lg:text-xl text-sky-800"
         >
-          Hotel Bordoisila
+          Hotel Bordoichilla
         </Link>
       </div>
 

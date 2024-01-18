@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Image from "next/image";
 import Slideshow from "./Slideshow";
 
 function Staffs() {
@@ -39,7 +40,13 @@ function Staffs() {
           </p>
         </div>
         <div className="order-1 lg:order-2 flex flex-col justify-center lg:w-1/2">
-          <img src={`/images/${currentImage}.jpg`} className="rounded-lg" />
+          <Image
+            src={`/images/${currentImage}.jpg`}
+            className="rounded-lg"
+            width={500}
+            height={500}
+            alt="Picture of the staff"
+          />
         </div>
       </div>
     </div>

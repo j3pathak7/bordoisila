@@ -10,7 +10,7 @@ function Home() {
       <div className="text-center py-10 md:py-20 lg:py-32 px-4 space-y-4 ">
         <h1 className={`text-4xl xl:text-6xl leading-[3.5rem] font-semibold`}>
           Find cozy comfort at Hotel
-          <span className="text-sky-800 "> Bordoisila</span>
+          <span className="text-sky-800 "> Bordoichilla</span>
         </h1>
         <p className="xl:text-lg font-light mx-auto lg:px-4 px-2">
           Indulge in the epitome of sophistication and relaxation at our
