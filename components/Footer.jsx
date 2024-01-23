@@ -84,12 +84,12 @@ function Footer() {
             >
               Contact Us
             </Link>
-            <a
+            {/* <a
               href="https://esquireresortslimited.pixieset.com/esquireresorts/"
               className="boxuplink font-normal leading-[200%] text-sm"
             >
               Gallery
-            </a>
+            </a> */}
           </div>
           <div
             data-aos="fade-up"

@@ -21,7 +21,7 @@ function Landingpage() {
       <Home />
       <div className="[&>*]:py-12 px-5 md:px-10 lg:px-20 xl:px-36">
         <AboutUs />
-        <Gallery />
+        {/* <Gallery /> */}
         <Reviews />
         <Services />
       </div>

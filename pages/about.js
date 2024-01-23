@@ -15,7 +15,7 @@ const About = () => {
       <div className="[&>*]:py-10 px-5 md:px-10 lg:px-20 xl:px-36 ">
         <AboutIntroduction />
         <History />
-        <Staffs />
+        {/* <Staffs /> */}
         <Address />
       </div>
       <Footer />

@@ -14,7 +14,7 @@ const poppins = Poppins({ weight: "500", subsets: ["devanagari"] });
 
 function NotFound() {
   return (
-    <div className={`bg-[#8d4e9f] ${poppins.className}`}>
+    <div className={`bg-[#075985] ${poppins.className}`}>
       <Head>
         <title>Page Not Found</title>
         <meta name="description" content="Esquire Resorts 404 page " />
@@ -33,10 +33,15 @@ function NotFound() {
       />
       <div className="h-screen relative">
         <div className="flex justify-between text-white mx-auto lg:w-10/12 w-11/12 text-center m-20 mb-5">
-          <img
-            className="w-1/2 lg:w-auto opacity-70 md:opacity-100 absolute sm:relative"
-            src="https://media.giphy.com/media/RMwYOO5e8pr1lhL8K7/giphy.gif"
-          />
+          <div>
+            <iframe
+              allowfullscreen
+              frameborder="0"
+              height="270"
+              src="https://giphy.com/embed/mPytjcsG3XS4o"
+              width="480"
+            ></iframe>
+          </div>
           <div className="md:w-1/2  z-[5] flex flex-col justify-center space-y-8">
             <h1 className="text-5xl font-semibold font-mono leading-[56px]">
               Are you lost?
@@ -53,7 +58,7 @@ function NotFound() {
             <div className="flex justify-center space-x-10 ">
               <Link
                 href="/"
-                className="hover:bg-inherit self-center text-purple-500 bg-white p-4 px-10 rounded-2xl text-xl lg:text-2xl text-white font-semibold hover:border-2 hover:text-white"
+                className="hover:bg-inherit self-center text-sky-500 bg-white p-4 px-10 rounded-2xl text-xl lg:text-2xl text-sky-800 font-semibold hover:border-2 hover:text-white"
               >
                 Back to Homepage
               </Link>
