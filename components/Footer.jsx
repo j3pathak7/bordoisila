@@ -124,22 +124,22 @@ function Footer() {
           >
             <div className="font-bold mb-4 text-lg">Contact Details</div>
             <a
-              href="https://goo.gl/maps/6Rboa4u5RH7VCbik7"
+              href="https://maps.app.goo.gl/VjQcXHwhcX3eb44i6"
               className="boxuplink font-normal leading-[200%] text-sm"
             >
               {location} &nbsp;National Highway 31, near Sushrusa Hospital{" "}
             </a>
             <a
-              href="tel:+2349031870456"
+              href="tel:+918403851199"
               className="boxuplink font-normal leading-[200%] text-sm"
             >
               {phone} &nbsp;8403851199
             </a>
             <a
-              href="mailto:esquireresorts@gmail.com"
+              href="mailto:ashashreesarma7@gmail.com"
               className="boxuplink font-normal leading-[200%] text-sm"
             >
-              {mail} &nbsp;bordoisilahotel@gmail.com
+              {mail} &nbsp;bordoichilahotel@gmail.com
             </a>
           </div>
         </div>
