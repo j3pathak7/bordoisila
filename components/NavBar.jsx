@@ -84,7 +84,7 @@ function NavBar() {
         </li>
       </ul>
 
-      <div onClick={toggleSideBar} className="lg:hidden">
+      <div onClick={toggleSideBar} className="lg:hidden flex items-center">
         {menubutton}
       </div>
 
