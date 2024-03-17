@@ -159,7 +159,7 @@ function Footer() {
                   <FaTwitter className="mr-[35px] md:mr-[45px]" />
                 </a>
                 <a
-                  href="https://www.instagram.com/esquireresort/"
+                  href=""
                   className="inline-block"
                 >
                   <FaInstagram className="mr-0" />
@@ -176,7 +176,7 @@ function Footer() {
                 </p>
               </div>
               <div className="text-center text-[#999999] test-sm">
-                &copy; 2023 bordoisilahotel.com All rights reserved.
+                &copy; 2023 Hotel Bordoichilla All rights reserved.
               </div>
             </div>
           </div>
